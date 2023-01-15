@@ -5,7 +5,7 @@ import {AiFillTwitterCircle} from 'react-icons/ai'
 
 const HeaderSocials = () => {
     return (
-        <div className="header_socials">
+        <div className="header__socials">
             <a href="https://www.linkedin.com" target="_blank" rel="noreferrer"><BsLinkedin /></a>
             <a href="https://www.github.com" target="_blank" rel="noreferrer"><AiFillGithub /></a>
             <a href="https://www.twitter.com" target="_blank" rel="noreferrer"><AiFillTwitterCircle /></a>
