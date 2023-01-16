@@ -9,3 +9,17 @@ footer {
     margin-right: 2rem;
     color: var(--color-white);
 }
+
+
+
+/******************* MEDIA QUERIES FOR SMALL DEVICES *************************/
+@media screen and (max-width: 600px) {
+    footer {
+        margin-top: 10rem;
+        text-align: center;
+    }
+    .footer__copyright {
+        margin-bottom: 1rem;
+        margin-right: 0;
+    }
+}

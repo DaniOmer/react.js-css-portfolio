@@ -13,6 +13,8 @@ import Sass from '../../assets/skills/sass.png'
 import GitHub from '../../assets/skills/github1.png'
 import Shopify from '../../assets/skills/shopify.png'
 import Aws from '../../assets/skills/aws.png'
+import MySQL from '../../assets/skills/mysql.png'
+import Express from '../../assets/skills/express.png'
 
 const Skills = () => {
   return (
@@ -63,7 +65,7 @@ const Skills = () => {
                         <p>MongoDB</p>
                     </div>
                     <div className='skill'>
-                        <img src={Mongo} alt="Mongo icon"/>
+                        <img src={Express} alt="Mongo icon"/>
                         <p>EXPRESS</p>
                     </div>
                     <div className='skill'>
@@ -71,7 +73,7 @@ const Skills = () => {
                         <p>PHP</p>
                     </div>
                     <div className='skill'>
-                        <img src={Php} className='w-20 mx-auto' alt="PHP icon"/>
+                        <img src={MySQL} className='w-20 mx-auto' alt="PHP icon"/>
                         <p>MySQL</p>
                     </div>
                 </div>
