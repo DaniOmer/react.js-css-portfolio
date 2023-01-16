@@ -1,0 +1,11 @@
+
+footer {
+    margin-top: 16rem;
+    text-align: end;
+}
+
+.footer__copyright {
+    margin-bottom: 2rem;
+    margin-right: 2rem;
+    color: var(--color-white);
+}

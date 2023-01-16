@@ -2,7 +2,7 @@ import React from 'react'
 import './header.css'
 import CallToAction from './CallToAction'
 import HeaderSocials from './HeaderSocials'
-import Me from '../../assets/meW.png'
+import Me from '../../assets/dev-ed-wave.png'
 
 const Header = () => {
     return (
@@ -10,7 +10,7 @@ const Header = () => {
             <div className="container header_container">
                 <h5>Hello, I'm</h5>
                 <h1>Omer DOTCHAMOU</h1>
-                <h5 className="text-light">Fullstack Developper</h5>
+                <h5 className="text-light">Fullstack Developer</h5>
                 <CallToAction />
                 <HeaderSocials />
 
@@ -19,7 +19,7 @@ const Header = () => {
                 </div>
 
                 <div>
-                    <a href="contact" className="scroll-down"> Scroll Down</a>
+                    <a href="#contact" className="scroll-down"> Scroll Down</a>
                 </div>
             </div>
         </header>
